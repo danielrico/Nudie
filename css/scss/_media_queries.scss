@@ -1,3 +1,19 @@
+/* Grid system html exemple :
+<div class="row">
+  <div class="col l-50">col 1</div>
+  <div class="col l-50">col 2</div>
+</div>
+*/
+
+.row{
+  margin: 0 -15px;
+  @include cf;
+}
+.col{
+  float: left;
+  padding: 0 15px;
+}
+
 // XL
 
 @media screen and (min-width : 1200px){

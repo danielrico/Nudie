@@ -37,6 +37,12 @@ audio:not([controls]) {
   box-sizing: border-box;
 }
 
+/* Responsive img */
+img{
+  height: auto;
+  max-width: 100%;
+}
+
 /* Text rendering */
 html {
   -webkit-text-size-adjust: 100%;
