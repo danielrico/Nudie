@@ -10,13 +10,6 @@
 .cf:after {clear:both;}
 .cf {zoom:1;}
 
-/* Float alternative. About whitespace : http://css-tricks.com/fighting-the-space-between-inline-block-elements */
-@mixin inline_block{
-  display: inline-block;
-  *display: inline;
-  *zoom: 1;
-  vertical-align: top;
-}
 
 /* Responsive images : parent element's max and full width */
 @mixin max_width{
